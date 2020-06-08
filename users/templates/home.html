@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Hair Crown SKU Manager</title>
+</head>
+
+<body>
+    <h1>Welcome to Hair Crown SKU Manager</h1>
+    <a href="{% url 'about' %}">ABOUT</a>
+
+    <form action="{% url 'result' %}">
+        <textarea name="fulltext" cols="40" rows="10">
+        </textarea>
+        <br>
+        <input type="submit" value='제출하기'>
+    </form>
+</body>
+
+</html>
