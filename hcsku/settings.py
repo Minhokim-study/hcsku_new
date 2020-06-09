@@ -44,7 +44,8 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'Optional default value')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '6570f2c9af9d.ngrok.io', ]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '6570f2c9af9d.ngrok.io',
+                 'hcsku.herokuapp.com', ]
 
 
 # Application definition
